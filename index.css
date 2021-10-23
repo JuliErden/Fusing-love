@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.header {
+    width: 97%;
+    background-color: #105B63;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 120px;
+    position: fixed;
+}
+BODY {
+    background-color: #e9d2d2;
+}
+a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+.container {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.cards-section {
+    padding: 50px;
+}
+.cards-title, .cards-description {
+    text-align: center;
+}
+.card {
+    padding: 25px;
+    margin: 20px;
+    width: 23%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 2px 7px 0px rgb(71, 85, 110);
+}
+.card:hover {
+    box-shadow: 0px 10px 20px 0px rgb(71, 85, 110);
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+.card-button {
+    text-align: center;
+    background-color: rgb(126, 106, 199);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card-title, .card-description {
+    margin: 5px;
+}
+.footer {
+    background-color: #105B63;
+    padding: 50px 50px;
+}
+.copyright {
+    color: white;
+}
+.menu {
+display: flex;
+justify-content: space-evenly;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-img {
+    margin-right: 15px;
+    margin-left: -90px;
+}
+.header-menu {
+    flex-grow: 3;
+}
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    width: 60px;
+    margin: 5px;
+}
+.main {
+    margin-top: 100px;
+}
+@media screen and (max-width: 850px) {
+    .header-menu {
+        display: none;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .cards-row {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-row {
+        flex-wrap: wrap;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social-networks {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .footer {
+        padding: 25px;
+        text-align: center;
+    }
+}
+.logo-img {
+    width: 130px;
+    height: 130px;
+}
+.card-img{
+    width: 240px;
+    height: 230px;
+}
+.fon {
+    width: 90%;
+    background-color:  rgba(1, 122, 122, 0.6);
+    margin-left: 70px;
+}
+.text{
+    align-content: center;
+    padding: 10px; /* Поля вокруг текста */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: rgb(22, 56, 13);
+}
+.banner-section{
+    height: 60px;
+    background-color: #e9d2d2;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+h2{
+    color: rgb(41, 250, 51);
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 2px;
+}
+h3{
+    font-family: 'Lora', serif;
+}
+h1{
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(90deg, red, orange, fuchsia);
+}
